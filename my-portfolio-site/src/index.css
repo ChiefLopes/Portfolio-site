@@ -39,3 +39,13 @@ code {
   color: white;
   text-decoration: underline;
 }
+
+nav {
+   display: block;
+   text-align: center;
+   position: relative;
+   height: 210px;
+   top: 50%;
+   margin-top: -170px;
+}
+
