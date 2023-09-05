@@ -1,7 +1,9 @@
 import React from "react";
 import { Link, NavLink} from "react-router-dom";
 import image from "../assests/images/images (1).png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
+
 
 const SideBar = () => {
   return (
