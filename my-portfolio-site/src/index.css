@@ -72,8 +72,8 @@ svg:hover {
   opacity: 0;
 }
 
-i::after {
-  content: "Home";
+a::after {
+  content: "";
   font-size: 9px;
   letter-spacing: 2px;
   position: absolute;
@@ -85,12 +85,12 @@ i::after {
   transition: all 0.3s ease-out;
 }
 
-i:first-child::after {
+a:first-child:after {
   content: "Home";
   color: #ccab06;
 }
 
-i:nth-child(2)::after {
+a:nth-child(2):after {
   content: "Contact";
 }
 
