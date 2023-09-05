@@ -72,21 +72,28 @@ svg:hover {
   opacity: 0;
 }
 
-a::after {
-  content: "";
-  opacity: 1;
+i::after {
+  content: "Home";
+  font-size: 9px;
   letter-spacing: 2px;
   position: absolute;
   bottom: 0;
   display: block;
   width: 100%;
-  font-size: 9px;
   text-align: center;
   opacity: 0;
   transition: all 0.3s ease-out;
 }
 
-a:first-child::after {
+i:first-child::after {
   content: "Home";
+  color: #ccab06;
 }
 
+i:nth-child(2)::after {
+  content: "Contact";
+}
+
+a:nth-child(3)::after {
+  content: "About";
+}
