@@ -26,7 +26,7 @@ code {
 .sideBar-image {
   width: 80px;
   height: 50px;
-  margin: 30px 30px;
+  margin: 20px 10px;
   border-radius: 20%;
 }
 
@@ -35,17 +35,58 @@ code {
   font-weight: 600;
   position: relative;
   bottom: 35px;
-  left: 25px;
+  left: 5px;
   color: white;
   text-decoration: underline;
 }
 
 nav {
-   display: block;
-   text-align: center;
-   position: relative;
-   height: 210px;
-   top: 50%;
-   margin-top: -170px;
+  display: block;
+  text-align: center;
+  position: relative;
+  height: 210px;
+  top: 50%;
+  margin-top: -170px;
+  width: 100%;
+}
+
+a {
+  font-size: 22px;
+  color: #8d4d4e;
+  display: block;
+  line-height: 51px;
+  height: 51px;
+  position: relative;
+  text-decoration: none;
+  padding: 25px;
+}
+
+i {
+  transition: all 0.3s ease-out;
+}
+
+a:hover {
+  color: #ccab06;
+}
+svg:hover {
+  opacity: 0;
+}
+
+a::after {
+  content: "";
+  opacity: 1;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  font-size: 9px;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+
+a:first-child::after {
+  content: "Home";
 }
 
