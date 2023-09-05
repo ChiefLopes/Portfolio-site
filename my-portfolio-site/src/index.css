@@ -1,40 +1,41 @@
 body {
-    
   margin: 0;
-  font-family:300 11px/1.4 -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 300 11px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #ffffffc2;
-  background: #02431b;
+  background: #283a2f;
   overflow: hidden;
   display: block;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 .nav-bar {
-   background: #045529;
-   height: 100%;
-   width: 140px;
-   position: absolute;
+  background: #04553a;
+  height: 100%;
+  width: 140px;
+  position: absolute;
 }
 
 .sideBar-image {
-    width: 80px;
-    height: 50px;
-    margin: 30px 30px;
-    border-radius: 20%;
+  width: 80px;
+  height: 50px;
+  margin: 30px 30px;
+  border-radius: 20%;
 }
 
- .logo-title {
-        font-size: 18px;
-        position: relative;
-        bottom: 40px;
-        left: 20px;
-        color: white;
-    }
+.logo-title {
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  bottom: 35px;
+  left: 25px;
+  color: white;
+  text-decoration: underline;
+}
