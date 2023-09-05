@@ -18,16 +18,23 @@ code {
 }
 
 .nav-bar {
-   background: #538117;
+   background: #045529;
    height: 100%;
-   width: 100px;
+   width: 140px;
    position: absolute;
 }
 
 .sideBar-image {
     width: 80px;
     height: 50px;
-    margin: 30px 10px;
+    margin: 30px 30px;
     border-radius: 20%;
- 
 }
+
+ .logo-title {
+        font-size: 18px;
+        position: relative;
+        bottom: 40px;
+        left: 20px;
+        color: white;
+    }

@@ -7,7 +7,8 @@ const SideBar = () => {
     return (
       <div className="nav-bar">
         <Link>
-          <img className="sideBar-image" src={image} alt="" />
+                <img className="sideBar-image" src={image} alt="" />
+                <h2 className="logo-title">ChiefLopes</h2>
         </Link>
       </div>
     );
