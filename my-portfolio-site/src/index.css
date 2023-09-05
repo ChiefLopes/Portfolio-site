@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #ffffffc2;
-  background: #022c43;
+  background: #02431b;
   overflow: hidden;
   display: block;
 }
@@ -15,4 +15,19 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-bar {
+   background: #538117;
+   height: 100%;
+   width: 100px;
+   position: absolute;
+}
+
+.sideBar-image {
+    width: 80px;
+    height: 50px;
+    margin: 30px 10px;
+    border-radius: 20%;
+ 
 }

@@ -1,7 +1,8 @@
+import SideBar from '../Sidebar'
 import './index.css'
 
 const Layout = () => {
-        return <h1>Hello</h1>
+        return <SideBar />
 }
 
 export default Layout
