@@ -2,6 +2,7 @@ import React from "react";
 import "./index.scss";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/images/Lunix.png";
+import logotxt from '../../assets/images/Lunixslo.png'
 import { FontAwesome, FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faHome, faUser } from "@fortawesome/free-solid-svg-icons";
 
@@ -10,7 +11,8 @@ const Sidebar = () => {
     <div className="nav-bar">
       <Link className="logo" to="/">
         <img src={logo} alt="" />
-        <h2 className="slogan">Lunix</h2>
+        <img className="logotxt" src={logotxt} alt="" />
+
       </Link>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
