@@ -1,14 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap");
+
 .nav-bar {
   background: #04553a;
   height: 100%;
   width: 140px;
   position: absolute;
+  top: 0;
+  z-index: 3;
+  min-height: 500px;
+
+  .logo {
+    display: block;
+    padding: 13px 0;
+  }
+
+  img {
+    display: block;
+    margin: 15px auto;
+    width: 130px;
+    height: 110px;
+    border-radius: 4px;
+  }
+
+  .slogan {
+    font-family: "Orbitron", sans-serif;
+    font-size: 35px;
+    margin: -18px 12px;
+  
+  }
 }
 
-.sideBar-image {
-  width: 80px;
-  height: 70px;
-  margin: 10px 5px;
-  border-radius: 20%;
+:link {
+  text-decoration: none;
 }
-
