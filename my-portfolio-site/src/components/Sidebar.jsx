@@ -12,13 +12,13 @@ const SideBar = () => {
         <h2 className="logo-title">ChiefLopes</h2>
       </Link>
       <nav>
-        <NavLink exact="true" activeclassname="active" to="/">
-          <FontAwesomeIcon icon={faHome} size="2x"  />
+        <NavLink exact="true" activeclassname="active" to="/"> Home
+          <FontAwesomeIcon icon={faHome} size="2x" /> 
         </NavLink>
-        <NavLink exact="true" activeclassname="active" to="/">
+        <NavLink exact="true" activeclassname="active" to="/"> Contact
           <FontAwesomeIcon icon={faUser} size="2x" />
         </NavLink>
-        <NavLink exact="true" activeclassname="active" to="/">
+        <NavLink exact="true" activeclassname="active" to="/"> About
           <FontAwesomeIcon
             icon={faEnvelope}
             size="2x"
