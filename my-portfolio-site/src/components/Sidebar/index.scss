@@ -20,7 +20,6 @@
     width: 120px;
     height: 110px;
     border-radius: 4px;
-    
   }
 
   .logotxt {
@@ -48,17 +47,52 @@ nav {
     position: relative;
     top: 40px;
     text-decoration: none;
-    
+
     i {
-       transition: all 0.3s ease;
+      transition: all 0.3s ease;
     }
-    
+
     &:hover {
-       color: #ffd700;
-       
-       svg {
-       opacity: 0;
+      color: #00aeff;
+
+      svg {
+        opacity: 0;
+      }
+
+      &::after {
+        opacity: 1;
+      }
     }
+
+    &::after {
+      content: "";
+      font-size: 19px;
+      letter-spacing: 2px;
+      position: absolute;
+      bottom: 0;
+      top: 10px;
+      display: block;
+      width: 100%;
+      font-weight: 900;
+      text-align: center;
+      opacity: 0;
+      transition: all 0.3s ease-out;
+    }
+
+    &:nth-child(1) {
+      &::after {
+        content: "HOME";
+      }
+      a:nth-child(2) {
+        a::after {
+          content: "CONTACT";
+        }
+        &:nth-child(3) {
+          &::after {
+            content: "HOME";
+          }
+        }
+      }
     }
   }
 }
