@@ -90,10 +90,13 @@ nav {
         content: "ABOUT";
       }
     }
+    
     &:nth-child(3) {
      &::after {
         content: "CONTACT";
       }
     }
+    
+
   }
 }

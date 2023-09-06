@@ -12,10 +12,9 @@ const Sidebar = () => {
       <Link className="logo" to="/">
         <img src={logo} alt="" />
         <img className="logotxt" src={logotxt} alt="" />
-
       </Link>
       <nav>
-        <NavLink exact="true" activeclassname="active" to="/">
+        <NavLink exact="true" className="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#4d4d3e" />
         </NavLink>
         <NavLink
