@@ -5,10 +5,11 @@ import logo from '../../assets/images/dice.jpg'
 
 const Sidebar = () => {
   return (
-    <div>
-          <Link className="logo" to='/'>
-              <img src={logo} alt="" />
-          </Link>
+    <div className="nav-bar">
+      <Link className="logo" to="/">
+              <img className="sideBar-image" src={logo} alt="" />
+              <h2>Mufasa.Don</h2>
+      </Link>
     </div>
   );
 };

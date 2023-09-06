@@ -16,19 +16,7 @@ code {
     monospace;
 }
 
-.nav-bar {
-  background: #04553a;
-  height: 100%;
-  width: 140px;
-  position: absolute;
-}
 
-.sideBar-image {
-  width: 80px;
-  height: 50px;
-  margin: 20px 10px;
-  border-radius: 20%;
-}
 
 .logo-title {
   font-size: 18px;
