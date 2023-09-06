@@ -83,15 +83,16 @@ nav {
       &::after {
         content: "HOME";
       }
-      a:nth-child(2) {
-        a::after {
-          content: "CONTACT";
-        }
-        &:nth-child(3) {
-          &::after {
-            content: "HOME";
-          }
-        }
+    }
+    
+    &:nth-child(2) {
+     &::after {
+        content: "ABOUT";
+      }
+    }
+    &:nth-child(3) {
+     &::after {
+        content: "CONTACT";
       }
     }
   }
