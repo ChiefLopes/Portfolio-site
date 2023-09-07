@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.scss";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, Router} from "react-router-dom";
 import logo from "../../assets/images/Lunix.png";
 import logotxt from '../../assets/images/Lunixslo.png'
 import { FontAwesome, FontAwesomeIcon } from "@fortawesome/react-fontawesome";

@@ -84,19 +84,19 @@ nav {
         content: "HOME";
       }
     }
-    
+
     &:nth-child(2) {
-     &::after {
+      &::after {
         content: "ABOUT";
       }
     }
-    
+
     &:nth-child(3) {
-     &::after {
+      &::after {
         content: "CONTACT";
       }
     }
-    
 
+  
   }
 }
