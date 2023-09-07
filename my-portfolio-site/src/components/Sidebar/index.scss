@@ -35,7 +35,7 @@ nav {
   position: absolute;
   height: 210px;
   top: 50%;
-  margin-top: -80px;
+  margin-top: -100px;
   width: 100%;
 
   a {
@@ -43,9 +43,9 @@ nav {
     color: #4d4d4e;
     display: block;
     line-height: 51px;
-    height: 100px;
+    height: 70px;
     position: relative;
-    top: 40px;
+    top: 10px;
     text-decoration: none;
 
     i {
@@ -96,6 +96,45 @@ nav {
         content: "CONTACT";
       }
     }
-    
   }
+}
+
+ul {
+   position: absolute;
+   bottom: 20px;
+   width: 100%;
+   display: block;
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+   text-align: center;
+   
+   li {
+    padding: 7px 0;
+    display: block;
+    font-size: 18px;
+    line-height: 16px;
+    
+    &::after {
+      content: "";
+      font-size: 19px;
+      letter-spacing: 2px;
+      position: absolute;
+      bottom: 0;
+      top: 10px;
+      display: block;
+      width: 100%;
+      font-weight: 900;
+      text-align: center;
+      opacity: 0;
+      transition: all 0.3s ease-out;
+    }
+    
+      &:nth-child(1) {
+      &::after {
+        content: "HOME";
+      }
+    }
+    
+}
 }
