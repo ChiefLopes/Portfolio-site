@@ -83,13 +83,11 @@ nav {
       &::after {
         content: "HOME";
       }
-
     }
 
     &:nth-child(2) {
       &::after {
         content: "ABOUT";
-        
       }
     }
 
@@ -98,8 +96,6 @@ nav {
         content: "CONTACT";
       }
     }
-
     
-      
   }
 }
